@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+  basePath: process.env.NODE_ENV === "production" ? "": undefined,
+  output: "export",
+  reactStrictMode: true,
+   experimental: {
+    appDir: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+};
