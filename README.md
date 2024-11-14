@@ -1,3 +1,2 @@
 3dp
-
-three-dimensional printing service by ettore veronese
+3d printing service by ettore veronese
